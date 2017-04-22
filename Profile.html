@@ -5,11 +5,12 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<script type="text/javascript" href="JavaScript.js"></script>
 	<script type="text/javascript" href=""></script>
-	<title>Dushevno</title>
+	<title>Profile</title>
 </head>
 <body>
 	<div id="header">
 		<div id="logo">
+
 		</div>
 		<div id="block">
 			<div id="name">
@@ -42,7 +43,7 @@
 				<p>Пароль:</p> <input type="pass" name="password"><br>
 				<input id="register" type="submit" name="sub" value="Зарегистрироваться">
 			</form>
-		</div>
+		</div>		
 	</div>
 	<div id="content">
 		<div id="menu">
@@ -56,15 +57,33 @@
 				<a href="#"><h2>Создать чат</h2></a>
 			</div>
 			<div id="chatslist">
-				<a href="Chat.html"><h2>Найти чат</h2></a>
+				<a href="Chatslist.html"><h2>Найти чат</h2></a>
 			</div>
 			<div id="memberslist">
 				<a href="Memberslist.html"><h2>Участники</h2></a>
 			</div>
 		</div>
-		<div id="CreateNewChat">
-			<a href="#"><h2>Создайте свой чат прямо сейчас!</h2></a>
-			<a href="#"><h5>Или найдите его в нашем списке</h5></a>
+		<div class="MyProfile">
+			<h2 class="thisis">Профиль: </h2>
+			<div class="SecondName">
+				<h2>Романов</h2>
+			</div>
+			<div class="FirstName">
+				<h3>Петр</h3>
+			</div>
+			<div class="Age">
+				<h3>22</h3>
+			</div>
+			<div class="Status">
+				<select>
+					<option>Счастлив</option>
+					<option>Депресняк</option>
+					<option>Радость</option>
+					<option>Грусть</option>
+					<option>На коне</option>
+					<option>Одинок</option>
+				</select>
+			</div>
 		</div>
 	</div>
 </body>
